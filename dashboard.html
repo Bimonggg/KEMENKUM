@@ -2,24 +2,38 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Dashboard</title>
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background-color: #004080;
-      color: white;
-    }
-    h1 {
-      font-size: 28px;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard Kemenkumham</title>
+  <link rel="stylesheet" href="dashboard.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <h1>Selamat Datang di Dashboard, Admin!</h1>
+  <nav class="navbar">
+    <div class="logo">KEMENKUMHAM</div>
+    <ul class="nav-menu">
+      <li class="dropdown">
+        <a href="#">Profil ▼</a>
+        <ul class="dropdown-content">
+          <li><a href="#">Sejarah Kemenkumham</a></li>
+          <li><a href="#">Visi & Misi</a></li>
+          <li><a href="#">Pejabat</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#">Unit Kerja ▼</a>
+        <ul class="dropdown-content">
+          <li><a href="#">Unit Utama</a></li>
+          <li><a href="#">Kantor Wilayah</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <section class="intro">
+    <h2>Selamat Datang di Dashboard Kemenkumham</h2>
+    <p>
+      Kementerian Hukum dan HAM RI berkomitmen melayani masyarakat dengan profesional dan transparan melalui inovasi digital yang humanis.
+    </p>
+  </section>
 </body>
 </html>
